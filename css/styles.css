@@ -11,8 +11,8 @@
 }
 
 :root {
-  --orange: #f78b00;
-  --blue: #00285f;
+  --orange: #00caf279;
+  --blue: #0066B1;
   --gray: #ededed;
 }
 
@@ -50,6 +50,9 @@ nav {
   font-size: 24px;
   color: var(--blue);
   cursor: pointer;
+}
+p{
+  font-size: 3vh;
 }
 
 nav ul {
@@ -134,10 +137,18 @@ nav ul button:hover {
 
 /* Product Catalog */
 
+.imgfundo{
+  border-radius: 15px;
+}
+.imgfundo1{
+  border-radius: 10px;
+}
+
 section .catalog {
   width: 100vw;
   padding: 100px;
 }
+
 
 section .filter-card {
   width: 980px;
